@@ -1,6 +1,5 @@
 {
   "name": "shelf",
-  "homepage": "https://ameya-05.github.io/Shelf/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,9 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run dev",
-    "deploy" : "gh-pages -d dist"
+    "preview": "vite preview"
   },
   "dependencies": {
     "gh-pages": "^6.3.0",
