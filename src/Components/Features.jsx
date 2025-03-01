@@ -8,7 +8,7 @@ export default function Features() {
   return (
     <div className="flex flex-col gap-10 p-10">
       {/* Publish Section */}
-      <div className="bg-purple-100 p-6 ml-10 mr-10 rounded-2xl shadow-md">
+      <div id="inventory" className="bg-purple-100 p-6 ml-10 mr-10 rounded-2xl shadow-md">
         <div className="flex items-center gap-28">
           <div className="w-[450px] h-72 ml-8">
             <img className="w-full h-full" src={track} alt="" />
@@ -28,7 +28,7 @@ export default function Features() {
       </div>
       
       {/* Create Section */}
-      <div className="bg-orange-100 p-6 ml-10 mr-10 rounded-2xl shadow-md">
+      <div id="stock" className="bg-orange-100 p-6 ml-10 mr-10 rounded-2xl shadow-md">
         <div className="flex flex-col md:flex-row items-center gap-14">
           <div className="w-full md:w-1/2 ml-5">
             <h2 className="text-2xl font-bold text-gray-800">Stock Management</h2>
@@ -46,7 +46,7 @@ export default function Features() {
         </div>
       </div>
 
-      <div className="bg-blue-100 p-6 ml-10 mr-10 rounded-2xl shadow-md">
+      <div id="report" className="bg-blue-100 p-6 ml-10 mr-10 rounded-2xl shadow-md">
         <div className="flex items-center gap-28">
           <div className="w-[450px] h-64 ml-8">
             <img className="w-full h-full" src={image4} alt="" />
@@ -65,7 +65,7 @@ export default function Features() {
         </div>
       </div>
 
-      <div className="bg-red-100 p-6 ml-10 mr-10 rounded-2xl shadow-md">
+      <div id="mobile" className="bg-red-100 p-6 ml-10 mr-10 rounded-2xl shadow-md">
         <div className="flex flex-col md:flex-row items-center gap-14">
           <div className="w-full md:w-1/2 ml-5">
             <h2 className="text-2xl font-bold text-gray-800">Mobile & Cloud Access</h2>

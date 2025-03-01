@@ -30,7 +30,7 @@ export default function Testimonial() {
   }, []);
 
   return (
-    <div className="flex relative items-center justify-between gap-44 bg-gray-200 text-black py-10 m-12 px-6 rounded-2xl text-center">
+    <div id="blog" className="flex relative items-center justify-between gap-44 bg-gray-200 text-black py-10 m-12 px-6 rounded-2xl text-center">
       <div>
         <h1 className="text-5xl ml-10 font-bold mb-10">Testimonials</h1>
         <FaQuoteLeft className="absolute ml-10 top-40 text-sm text-black" /> <span className="text-2xl ml-14 font-semibold tracking-tighter">Feedbacks that helps us thrive! </span> <FaQuoteRight className="absolute ml-10 top-40 left-[340px] text-sm text-black" />

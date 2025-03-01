@@ -2,7 +2,7 @@ import React from "react";
 
 const Pricing = () => {
   return (
-    <div className="flex flex-col md:flex-row justify-center items-center gap-10 p-6">
+    <div id="pricing" className="flex flex-col md:flex-row justify-center items-center gap-10 p-6">
       {/* Collaboration Section */}
       <div className="bg-yellow-100 p-8 rounded-2xl shadow-md max-w-md">
         <h1 className=" text-3xl font-bold uppercase">₹0/ Month</h1>

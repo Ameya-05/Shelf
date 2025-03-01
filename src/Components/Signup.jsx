@@ -8,7 +8,7 @@ const Signup = () => {
         <div className="w-full bg-gray-200 flex items-center justify-center p-6">
           <img
             src={signup}
-            alt="Illustration"
+            alt="signup"
             className="w-full h-auto rounded-xl"
           />
         </div>
