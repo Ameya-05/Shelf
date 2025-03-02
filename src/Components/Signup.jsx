@@ -5,14 +5,14 @@ const Signup = () => {
   return (
     <div className="flex items-center justify-center min-h-screen">
       <div className="bg-white mt-5 shadow-lg rounded-lg flex overflow-hidden max-w-4xl w-full">
-        <div className="w-full bg-gray-200 flex items-center justify-center p-6">
+        <div className="w-full bg-gray-100 flex items-center justify-center p-6">
           <img
             src={signup}
             alt="signup"
             className="w-full h-auto rounded-xl"
           />
         </div>
-        <div className="w-full p-7 bg-gray-200">
+        <div className="w-full p-7 bg-gray-100">
           <h2 className="text-2xl font-semibold mb-2">Register</h2>
           <p className="text-blue-800 mb-6">
             Manage all your inventory efficiently

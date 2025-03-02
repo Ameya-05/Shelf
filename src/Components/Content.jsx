@@ -8,10 +8,6 @@ export default function Content() {
 
   return (
     <div className="min-h-screen bg-[#f6f6ed] flex flex-col items-center justify-center ml-14 mr-14 rounded-3xl relative">
-      {/* Floating Elements */}
-      {/* <div className="absolute bottom-3 left-14 w-56 h-56">
-        <img src={image1} className="w-full h-full" alt="" />
-      </div> */}
 
       <div className="absolute top-2 -left-10 w-44 h-44">
         <img src={image3} className="w-full h-full" alt="" />
