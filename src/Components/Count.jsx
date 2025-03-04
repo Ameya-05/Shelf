@@ -25,13 +25,13 @@ const StatCard = ({ value, label }) => {
       }
       setCount(Math.floor(start));
     }, incrementTime);
-  
+
     return () => clearInterval(counter);
   }, [value]);
 
   return (
-    <div className="border rounded-2xl p-6 text-center shadow-md w-64">
-      <p className="text-3xl font-semibold">{count.toLocaleString()}</p>
+    <div className="border rounded-2xl p-6 text-center shadow-md w-full max-w-xs sm:w-64 bg-white">
+      <p className="text-3xl sm:text-4xl font-semibold">{count.toLocaleString()}</p>
       <p className="text-gray-500 text-sm mt-1">{label}</p>
     </div>
   );
@@ -39,7 +39,7 @@ const StatCard = ({ value, label }) => {
 
 const StatsSection = () => {
   return (
-    <div className="flex justify-center gap-6 p-6">
+    <div className="flex flex-wrap justify-center gap-6 p-6 md:flex-row">
       {stats.map((stat, index) => (
         <StatCard key={index} value={stat.value} label={stat.label} />
       ))}

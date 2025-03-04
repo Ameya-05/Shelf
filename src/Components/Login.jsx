@@ -4,14 +4,14 @@ import login from "../images/login.jpg";
 
 const Login = () => {
   return (
-    <div className="flex items-center justify-center min-h-screen bg-white">
-      <div className="bg-gray-100 shadow-lg rounded-lg flex overflow-hidden max-w-4xl w-full">
-        <div className="w-1/2 p-10">
+    <div className="flex items-center justify-center min-h-screen bg-white px-4">
+      <div className="bg-gray-100 shadow-lg rounded-lg flex flex-col md:flex-row overflow-hidden max-w-4xl w-full">
+        <div className="w-full md:w-1/2 p-10">
           <h2 className="text-2xl font-semibold mb-4">Login</h2>
           <p className="text-gray-600 mb-6">See your growth and get support!</p>
           <button className="w-full flex items-center justify-center border rounded-lg py-2 px-4 mb-4 text-gray-700 bg-white hover:bg-gray-200">
             Sign in with Google
-            <FcGoogle className="ml-2" size={25}/>
+            <FcGoogle className="ml-2" size={25} />
           </button>
           <div className="mb-4">
             <label className="block text-gray-700 mb-1">Email*</label>
@@ -42,7 +42,7 @@ const Login = () => {
             Not registered yet? <a href="/register" className="text-blue-500">Create a new account</a>
           </p>
         </div>
-        <div className="w-1/2 bg-gray-100 flex items-center justify-center p-10">
+        <div className="w-full md:w-1/2 bg-gray-100 flex items-center justify-center p-10">
           <img
             src={login}
             alt="Illustration"

@@ -1,6 +1,6 @@
 export default function Download() {
     return (
-      <div className="bg-green-900 text-white py-10 m-12 px-6 rounded-2xl text-center">
+      <div className="bg-green-900 mt-8 md:mt-10 text-white py-10 m-12 px-6 rounded-2xl text-center">
         <h1 className="text-5xl font-bold mb-4">
           For Better Experience 
         </h1>
