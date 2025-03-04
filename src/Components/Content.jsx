@@ -18,7 +18,7 @@ export default function Content() {
       </div>
 
       {/* Floating Text Boxes */}
-      <div className="absolute bottom-12 left-4 sm:left-10 bg-white shadow-lg p-3 rounded-lg text-center">
+      <div className="absolute bottom-32 left-10 md:bottom-12 md:left-4 sm:left-10 bg-white shadow-lg p-3 rounded-lg text-center">
         <p className="text-xs sm:text-sm text-gray-600">✅ Smart Inventory</p>
         <p className="text-xs sm:text-sm text-green-600">🚀 Seamless Efficiency!</p>
       </div>
